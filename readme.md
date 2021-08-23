@@ -1,1 +1,3 @@
-<a href="page2">page2</a>
+```php
+    Class::function($param);
+```
