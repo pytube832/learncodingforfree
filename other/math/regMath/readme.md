@@ -1,2 +1,2 @@
 <title>regular math</title>
-<h1>Regular math</h1<
+<h1>Regular math</h1>
