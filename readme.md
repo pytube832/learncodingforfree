@@ -1,6 +1,1 @@
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+<h1>Learncodingforfree</h1>
