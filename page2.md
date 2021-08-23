@@ -1,1 +1,1 @@
-!(index.php)
+<iframe src="index.php"></iframe>
