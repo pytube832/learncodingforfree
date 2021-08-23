@@ -9,4 +9,4 @@ The problem is that PHP code is only recognized for highlighting by GFM if it in
 ```php
 <?php
 class GO_Example_Model_Thing extends GO_Base_Db_ActiveRecord {
-    ...``
+<!-- language: php -->    ...``
