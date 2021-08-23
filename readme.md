@@ -23,8 +23,8 @@ $html = Markdown::defaultTransform($text);
         <title>PHP Markdown Lib - Readme</title>
     </head>
     <body>
-		<?php
-			# Put HTML content in the document
+		<?php  
+                        #put HTML content in the document
 			echo $html;
 		?>
 	    <?php
