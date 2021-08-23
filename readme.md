@@ -27,5 +27,8 @@ $html = Markdown::defaultTransform($text);
 			# Put HTML content in the document
 			echo $html;
 		?>
+	    <?php
+                  echo "hello world";
+:           ?>
     </body>
 </html>
