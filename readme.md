@@ -6,4 +6,4 @@
 <a href="css">then some css</a>
 <a href="js">and finally some javascript</a>
 <a href="other/">if you don't want to learn coding click this link to see what else you can do</a>
-<script>if(document.documentElement.lang ="ja"){document.write("申し訳ありませんが、このウェブサイトは日本語をサポートしていません");}</script>
+<script>if(document.documentElement.lang =="ja"){document.write("申し訳ありませんが、このウェブサイトは日本語をサポートしていません");}</script>
