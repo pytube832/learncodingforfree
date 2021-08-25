@@ -1,2 +1,2 @@
-var c = document.getElementsByTagName("cookiesEnabled");
-if(navigator.cookieEnabled){console.log("enabled")}else{c.innerText = "Please Enable Cookies!";}
+var cookie = document.getElementsByTagName("cookie")[0];
+cookie.getElementsByTagName("enabled")[0].innerHTML = navigator.cookieEnabled;
