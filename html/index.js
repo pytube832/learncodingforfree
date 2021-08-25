@@ -1,2 +1,3 @@
 var cookieenabled = navigator.cookieEnabled();
-document.getElementById("cookie-enabled").innerHTML = cookieenabled;
+var c = document.getElementByTagName("cookiesEnabled");
+c.innerHTML = navigator.cookieEnabled();
