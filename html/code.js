@@ -5,8 +5,8 @@ class cookie(){
 } 
 class run(){
   static start(){
-    import Run from "run"; 
-    import "run";
-    var run = import("run");
-  }
+    import("/run/Run.js").then((module) => {
+      console.log("running");
+    }
+}
 }
