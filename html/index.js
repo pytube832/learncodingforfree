@@ -1,2 +1,3 @@
 var cookie = document.getElementsByTagName("cookie")[0];
-cookie.getElementsByTagName("enabled")[0].innerHTML = navigator.cookieEnabled;
+var c = cookie.getElementsByTagName("enabled")[0];
+if(navigator.cookieEnabled){console.log("enabled")}else{c.innerHTML = "please enable cookies";}
