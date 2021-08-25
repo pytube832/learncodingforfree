@@ -5,6 +5,6 @@ class cookie(){
 } 
 class run(){
   static start(){
-    import * as Run from '/run/Run.js';
+    import run from "run";
   }
 }
