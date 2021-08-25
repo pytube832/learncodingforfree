@@ -1,7 +1,10 @@
-var http = require('http');
-
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World!');
-}).listen(8080);
-alert("hi")
+function load(){
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function(){
+    document.body.innerHTML =
+      this.responseText;
+  }
+  xhttp.open("GET", "change.txt", true);
+  xhttp.send();
+}
+}
